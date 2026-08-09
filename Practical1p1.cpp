@@ -22,8 +22,9 @@ int main()
 
     int k = h % n;
 
-    for(int i = k;i<n;i++){
-    cout<<arr[i]<<" ";
+    for(int i = k;i<n;i++)
+    {
+        cout<<arr[i]<<" ";
     }
     for(int i = 0;i<k;i++)
     {

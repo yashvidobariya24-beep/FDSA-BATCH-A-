@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int n;
+    cout<<"enter size:"<<endl;
     cin >> n;
 
     unordered_map<int, int> freq;
@@ -16,7 +17,7 @@ int main()
         freq[id]++;
     }
 
-    cout << "Duplicate Book IDs are: ";
+    cout << "duplicate book ids: ";
 
     for(auto x : freq)
     {
