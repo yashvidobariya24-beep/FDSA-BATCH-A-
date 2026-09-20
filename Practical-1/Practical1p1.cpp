@@ -6,7 +6,7 @@ int main()
 {
     int h ,n;
 
-    cout<<"enetr your number of items";
+    cout<<"enter your number of items";
     cin>>n;
 
     vector<int> arr(n);
@@ -32,4 +32,7 @@ int main()
     }
 
     return 0;
+
+
+
 }
