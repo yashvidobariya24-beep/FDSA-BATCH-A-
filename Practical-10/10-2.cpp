@@ -7,7 +7,7 @@ int main()
 {
     int n;
     
-    cout<<"enter number of books :";
+    cout<<"enter number of books : ";
 
     cin>>n;
 
